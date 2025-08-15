@@ -103,3 +103,7 @@ node heic_to_jpg_converter.js ./input ./output --quality 90
 ---
 
 ✅ **Tip:** For best results, install **ExifTool** and **ImageMagick** to ensure full metadata preservation and correct image orientation.
+
+Use https://github.com/PetrVys/MotionPhoto2 to insert motion photos into the output.
+with for example:
+`motionphoto2 --input-directory /your/directory --overwrite --delete-video`
